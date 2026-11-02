@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Safree",
+    "slug": "safree-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "safree",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#262525"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safree.mobile"
+    },
+    "android": {
+      "package": "com.safree.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#262525"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
